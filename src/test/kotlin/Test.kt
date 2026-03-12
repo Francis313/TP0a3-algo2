@@ -1,3 +1,4 @@
+
 package ar.edu.unsam.algo2
 //Abajo ta todos los imports para los tests
 import org.junit.jupiter.api.Test
@@ -5,7 +6,7 @@ import org.junit.jupiter.api.DisplayName
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlin.test.assertFalse
-
+/*
 class TodoListTest {
 
     @Test
@@ -16,5 +17,16 @@ class TodoListTest {
         lista.agregar(tarea)
         assertFalse(lista.estanCumplidas())
     }
+
+}
+
+*/
+
+
+// Entrega 0 Tests
+
+class xPace {
+
+
 
 }
