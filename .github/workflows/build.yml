@@ -74,7 +74,7 @@ jobs:
       # Â¡Pero en un PR podemos comentar la cobertura! Haremos el chequeo inverso para cubrirlo
       - name: Post coverage summary in PR
         if: ${{ github.event_name == 'pull_request' }}
-        uses: madrapps/jacoco-report@v1.7
+        uses: madrapps/jacoco-report@v1.6
         with:
           paths: ${{ github.workspace }}/build/reports/jacoco/test/jacocoTestReport.xml
           token: ${{ secrets.GITHUB_TOKEN }}
