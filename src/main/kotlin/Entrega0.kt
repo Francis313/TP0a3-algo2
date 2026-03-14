@@ -1,8 +1,15 @@
 package ar.edu.unsam.algo2
 
+import java.time.Year
+
 class Tripulante(var edad:Int, val nombre:String, val apellido:String,
                 val dia_nac:Int, val mes_nac:Int, val año_nac:Int) {
+    var diaInicio = 0
+    var mesInicio = 0
+    var anioInicio = 0
 
+    fun fechaIncio(): String = "$diaInicio/$mesInicio/$anioInicio"
+    //fun experiencia() = (Year.now().value - añoInicio) + (misionesExitosas/2) + (misionesFracasadas/2) + (parcialmenteExitosas/4)
 
 }
 
