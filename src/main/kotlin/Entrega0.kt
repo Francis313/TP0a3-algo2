@@ -1,8 +1,14 @@
 package ar.edu.unsam.algo2
 
+import java.time.format.DateTimeFormatter
+import java.time.LocalDate
+
 class Tripulante(var edad:Int, val nombre:String, val apellido:String,
                 val dia_nac:Int, val mes_nac:Int, val año_nac:Int) {
 
+    var misionesExitosas:Int = 0
+    var misionesParcialmenteExitosas:Int = 0
+    var misionesFracasadas:Int = 0
 
 }
 

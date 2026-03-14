@@ -1,33 +1,30 @@
-
 package ar.edu.unsam.algo2
-//Abajo ta todos los imports para los tests
+
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.DisplayName
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlin.test.assertFalse
-/*
-class TodoListTest {
+import kotlin.test.assertNotEquals
 
+
+
+val juan = Tripulante(32,"juan","carlos",28,11,2004)
+
+// Entrega 0 Tests
+
+class xPace {
     @Test
-    @DisplayName("Tarea nueva debería crearse sin cumplir por defecto")
-    fun tareaNuevaNoEstaCumplida() {
-        val lista = todoList()
-        val tarea = Tarea("Estudiar Kotlin")
-        lista.agregar(tarea)
-        assertFalse(lista.estanCumplidas())
+    @DisplayName("Tarea de testeo de Mision")
+    fun testeoMisiones() {
+        juan.misionesExitosas = 5
+        juan.misionesParcialmenteExitosas = 9
+        juan.misionesFracasadas = 23
+
+        assertEquals(5,juan.misionesExitosas)
+        assertNotEquals(12,juan.misionesParcialmenteExitosas)
+        assertEquals(23,juan.misionesFracasadas)
+
     }
 
 }
-
-*/
-
-
-// Entrega 0 Tests
-/*
-class xPace {
-
-
-
-}
-*/
