@@ -6,26 +6,28 @@ import org.junit.jupiter.api.DisplayName
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlin.test.assertFalse
-/*
-class TodoListTest {
-
-    @Test
-    @DisplayName("Tarea nueva debería crearse sin cumplir por defecto")
-    fun tareaNuevaNoEstaCumplida() {
-        val lista = todoList()
-        val tarea = Tarea("Estudiar Kotlin")
-        lista.agregar(tarea)
-        assertFalse(lista.estanCumplidas())
-    }
-
-}
-
-*/
 
 
 // Entrega 0 Tests
 /*
 class xPace {
+    val jefeAlMando = Tripulante(32,"Francis","Drake", 28,1,1999)
+
+
+    @Test
+    @DisplayName("Fecha Inicio de tripulante")
+    fun testeoFechaInicio() {
+        jefeAlMando.diaInicio = 28
+        jefeAlMando.mesInicio = 4
+        jefeAlMando.anioInicio = 2024
+
+        assertEquals("28/4/2024", jefeAlMando.fechaIncio())
+
+    }
+
+
+
+
 
 
 
